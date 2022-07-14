@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
+    <link href="assets/aos/aos.css" rel="stylesheet">   
     <link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet">
 </head>
 
@@ -91,13 +91,13 @@
 
     <!--=============- Skill start ===================== -->
   
-    <section class="skills">
+    <section class="skills" data-aos="fade-up" data-aos-duration='4000'>
         <h1>Skills</h1>
         <div class="container skills__container">
 
             <div class="skills__left">
                 <div class="row skills-content">
-                    <div class="col-lg-6" data-aos="fade-up">
+                    <div class="col-lg-6" >
                       <div class="progress">
                         <span class="skill">HTML<i class="val"></i></span>
                         <div class="progress-bar-wrap">
@@ -167,7 +167,7 @@
 
     <!--=============- UX portfolio ===================== -->
 
-    <section class="portfolio">
+    <section class="portfolio" data-aos="fade-up" data-aos-duration='4000'>
         <h2>Projects</h2>
         <div class="container portfolio__container">
             <article class="project">
@@ -211,7 +211,7 @@
 
 
     <!--=============- Contact section ===================== -->  
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" data-aos="fade-up" data-aos-duration='4000'>
       <h2>Contact me</h2>
       <div class="container contact__container">
           <div class="left__contact">
@@ -237,7 +237,10 @@
       © Copyright Adeboye Elisha
     </footer>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="main.js"></script>
 </body>
 </html>
