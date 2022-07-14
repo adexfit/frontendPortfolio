@@ -181,7 +181,7 @@ img {
 .project__info p {
     margin: 1.2rem 0 2rem;
     font-size: 0.9rem;
-	height: 5rem;
+	/* height: 5rem; */
 }
 
 
@@ -681,4 +681,12 @@ font-weight: 400;
 	  }
 	  
 
+}
+
+@media(max-width: 1024px){
+	.portfolio__container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+	}
 }
