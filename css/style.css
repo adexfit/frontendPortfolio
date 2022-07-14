@@ -693,3 +693,16 @@ font-weight: 400;
 		gap: 2rem;
 	}
 }
+
+
+@media only screen and (max-width: 480px) {
+	.portfolio__container {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+
+	header {
+		top: 7rem;
+	}
+}
