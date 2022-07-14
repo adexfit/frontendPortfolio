@@ -702,7 +702,12 @@ font-weight: 400;
 		gap: 2rem;
 	}
 
+	.header__right{
+		display: none;
+	}
+
 	header {
 		top: 7rem;
+		height: 80vh;
 	}
 }
